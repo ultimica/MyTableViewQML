@@ -28,7 +28,7 @@ Item{
 
         hoverEnabled: false
         onClicked: {
-            model.ctrl.someDummy();
+            controler.dumFun();
         }
     }
     

@@ -28,7 +28,7 @@ Window {
                 subcontrol: "Properties_Key.qml"
                 uiHeight:20
                 bkcolor:"#FF0000"
-                ctrl : targetitem
+             //   ctrl : targetitem
             }
             ListElement {
                 property_name: "Version"
@@ -37,7 +37,7 @@ Window {
                 subcontrol:"abc.qml"
                 uiHeight:90
                 bkcolor:"#FFFF00"
-                ctrl : targetitem
+             //   ctrl : targetitem
             }
 
             ListElement {
@@ -47,7 +47,7 @@ Window {
                 subcontrol:"Properties_Key.qml"
                 uiHeight:20
                 bkcolor:"#FF00FF"
-                ctrl : targetitem
+             //   ctrl : targetitem
             }
         }
 

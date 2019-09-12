@@ -15,6 +15,14 @@ Item {
 //    }
 
     height:loadqml.height
+    
+    Item{
+        id:dummyctrl
+        function dumFun()
+        {
+            console.log("GAGAGAGA");
+        }
+    }
 
     Rectangle{
         border.color : "#808080"
@@ -22,6 +30,7 @@ Item {
         anchors.fill : parent
         Loader {
             id:loadqml
+            property var controler : dummyctrl
             anchors.fill : parent
             source : {
                 switch(styleData.column)
